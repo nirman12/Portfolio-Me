@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.349);
+    width: 100%;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.name{
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(0, 60, 255, 0.821);
+    text-decoration:line-through solid rgba(192, 239, 255, 0.496);
+}
+.nav{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 255, 0.632);
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 106, 255, 0.533);
+}
+.contents{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom:100px ;
+}
+.intro > span{ 
+    color:blue;
+
+}
+.passion > span{ 
+    color:blue;
+}
+.details{
+    padding: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.profile{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid lightblue;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.bi{
+    margin:3px;
+}
+.hireme{
+    margin-top: 30px;
+    padding: 13px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.511);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: bisque;
+    transition: 3s;
+    padding: 17px;
+    font-size: 1.7rem;
+}
+
+
+.skillz{
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 50px;
+}
+h3{
+    margin: 10px;
+    font-weight:100;
+    color: rgb(71, 69, 69);
+}
+
+#topic{
+    font-size: 3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+.skill{
+    height: 25px;
+    width: 400px;
+    background-color: rgba(128, 128, 128, 0.551);
+    border-radius: 7px;
+}
+.html{
+    height: 100%;
+    width: 0;
+    background-color: green;
+    border-radius: 7px;
+    animation: fill-html 3s forwards;
+}
+@keyframes fill-html {
+    0% { width: 0; }
+    100% { width: 350px;
+            background-color: green; }
+}
+.css{
+    height: 100%;
+    width: 0;
+    background-color: green;
+    border-radius: 7px;
+    animation: fill-css 3s forwards;
+}
+@keyframes fill-css {
+    0% { width: 0; }
+    100% { width: 300px;
+            background-color: green; }
+}
+.js{
+    height: 100%;
+    width: 0;
+    background-color: green;
+    border-radius: 7px;
+    animation: fill-js 3s forwards;
+}
+@keyframes fill-js {
+    0% { width: 0; }
+    100% { width: 250px;
+            background-color: green; }
+}
+.njs{
+    height: 100%;
+    width: 0;
+    background-color: green;
+    border-radius: 7px;
+    animation: fill-njs 3s forwards;
+}
+@keyframes fill-njs {
+    0% { width: 0; }
+    100% { width: 200px;
+            background-color: green; }
+}
+.py{
+    height: 100%;
+    width: 0;
+    background-color: green;
+    border-radius: 7px;
+    animation: fill-py 3s forwards;
+}
+@keyframes fill-py {
+    0% { width: 0; }
+    100% { width: 300px;
+            background-color: green; }
+}
