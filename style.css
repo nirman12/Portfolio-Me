@@ -79,6 +79,7 @@ a{
     background-color: rgba(0, 0, 255, 0.511);
     font-size: 1.5rem;
     cursor: pointer;
+    color: black;
 }
 button:hover{
     background-color: bisque;
@@ -86,7 +87,9 @@ button:hover{
     padding: 17px;
     font-size: 1.7rem;
 }
-
+.color{
+    color: black;
+}
 
 .skillz{
     margin-top: 0%;
